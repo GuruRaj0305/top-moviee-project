@@ -8,7 +8,7 @@ import requests
 import os
 
 
-MOVIE_DB_API_KEY = "2846a859e225e7d1beb458cf230f0ec4"
+MOVIE_DB_API_KEY = os.environ['api_key']
 MOVIE_DB_SEARCH_URL = "https://api.themoviedb.org/3/search/movie"
 MOVIE_DB_INFO_URL = "https://api.themoviedb.org/3/movie"
 MOVIE_DB_IMAGE_URL = "https://image.tmdb.org/t/p/w500"
